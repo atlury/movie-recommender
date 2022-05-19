@@ -4,5 +4,5 @@ A simple recommender system that uses tmdb database to  recommend top 5 movies f
 
 Data Source: https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv
 
-Deployed App: https://movie-recommender-project0.herokuapp.com/
+Deployed App: https://share.streamlit.io/kameshkotwani/movie-recommender/app.py
 
