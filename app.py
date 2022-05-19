@@ -5,7 +5,12 @@ import os
 st.set_page_config(
     page_title="Movie Recommender",
     layout='wide',
-    page_icon='assets/img/page-icon.png'
+    page_icon='assets/img/page-icon.png',
+    menu_items={
+        'About':'Hi, I am Kamesh Kotwani, Data and ML Engineer. You can visit my [GitHub](https://www.github.com/kameshkotwani) page for more awesome projects, and to collaborate as well!'
+        
+    }
+    
 )
 
 API_KEY = st.secrets['API_KEY']
