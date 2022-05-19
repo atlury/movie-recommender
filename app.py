@@ -2,6 +2,11 @@ import requests
 import streamlit as st
 import joblib
 import os
+st.set_page_config(
+    page_title="Movie Recommender",
+    layout='wide',
+    page_icon='assets/img/page-icon.png'
+)
 
 API_KEY = st.secrets['API_KEY']
 IMAGE_FULL_PATH = "https://image.tmdb.org/t/p/w500"
